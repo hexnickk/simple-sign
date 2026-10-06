@@ -1,0 +1,7 @@
+services:
+  simple-sign:
+    build:
+      context: .
+    ports:
+      - "${PORT:-8083}:80"
+    restart: unless-stopped

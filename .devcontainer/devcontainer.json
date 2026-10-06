@@ -1,0 +1,13 @@
+{
+  "name": "simple-sign",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "forwardPorts": [
+    5173
+  ],
+  "portsAttributes": {
+    "5173": {
+      "label": "simple-sign"
+    }
+  },
+  "remoteUser": "node"
+}
